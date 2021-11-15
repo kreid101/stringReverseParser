@@ -1,0 +1,22 @@
+{
+    "name": "magomed/studio.local",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "maga",
+            "email": "magakhamatkhanov@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
